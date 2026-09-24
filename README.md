@@ -1,8 +1,8 @@
 # Jayla Scott
 ## About
-UXID231 introduces vital technologies for building modern, standards-compliant websites. HTML is used for structure and content, CSS is used for typography and layout, and the supporting practices (Git, hosting, and accessibility) that every site needs. 
+I am a sophmore in UXID. As of right now my interst leans towards the UX  Design and Research side of the field; however, i'm excited to learn code as this is a totally fresh concept for me. I love to crochet and i'm currently working on creating my own business.  
 ## Topic
-HyperText Markup Language(HTML) describes structure and content including headings, links, images, and paragraphs. 
+My portfolio will showcase my academic case studies and personal projects reflecting...
 ## AI Use
 AI tools are encouraged as a work-aid to support learning and problem solving; however, blindly copying and pasting AI generated code should not be passed off as genuine work. **All uses of AI must be declared with assignment submissions.**(ChatGPT, Copilot,etc)
 
