@@ -1,6 +1,6 @@
 # Jayla Scott
 ## About
-I am a sophmore in UXID. As of right now my interst leans towards the UX  Design and Research side of the field; however, i'm excited to learn code as this is a totally fresh concept for me. I love to crochet and i'm currently working on creating my own business.  
+I am a sophmore in UXID. As of right now my interst leans towards the UX  Design and Research side of the field; however, i'm excited to learn code as this is a totally fresh concept for me. I love to crochet and i'm currently working on creating my own business. I also have a Russian Blue kitty, a ginger Tabby kitty, and a pitbull.  
 ## Topic
 My portfolio will showcase my academic case studies and personal projects reflecting my concern and advocation for accessibility.
 ## AI Use
