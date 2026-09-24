@@ -2,7 +2,7 @@
 ## About
 UXID231 introduces vital technologies for building modern, standards-compliant websites. HTML is used for structure and content, CSS is used for typography and layout, and the supporting practicies such as Git, hosting, and accessbility. 
 ## Topic
-Git YAY
+HTML
 ## AI Use
 AI tools are encouraged as a work-aid to support learning and problem solving; however, blindly copying and pasting AI generated code should not be passed off as genuine work. **All uses of AI must be declared with assignment submissions.**(ChatGPT, Copilot,etc)
 
