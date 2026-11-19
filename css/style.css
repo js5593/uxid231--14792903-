@@ -1,0 +1,283 @@
+:root {
+  --color-backrgound: #ffffff;
+  --color-foreground: #000000;
+  --color-link: #000000;
+  --color-link-hover: #ff2f90;
+  --button-backrground: #e7e7e7;
+  --button-hover: #222222;
+  --class-color-bg: #ffffff; 
+
+  --font-size-base: 1.2rem;
+  --font-size-heading1:2.75rem;
+  --font-size-heading2: 2rem;
+  --font-size-heading3: 1.7rem;
+  --button-padding: 9px;
+  --button-radius: 10px;
+  --border-radius: 40px;
+  --project-card-padding: .3rem;
+  --heading-padding: 20px;
+  --heading-margin: 1rem;
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+
+body
+{
+padding: 2rem;
+max-width: 60rem;
+margin-inline: auto;
+max-width: 60rem ;
+background-color: var(--color-backrgound);
+color: var(--color-foreground);
+font-size: var(--font-size-base);
+font-weight: 250;
+line-height: 1.5;
+
+
+font-family:
+	ui-rounded,
+	-apple-system,
+	BlinkMacSystemFont,
+	'Segoe UI',
+	Roboto,
+	sans-serif;
+}
+
+h1, h2, h3
+{
+margin-top: var(--heading-margin) ;
+margin-bottom:var(--heading-margin) ;
+line-height: 1.2;
+font-weight: 600;
+}
+
+h1
+{
+font-size: var(--font-size-heading1);
+margin-bottom: 2rem;
+margin-top: 2rem;
+
+} 
+h2
+{
+margin-bottom: 2rem;
+margin-top: 2rem;
+
+font-size: var(--font-size-heading2);
+}
+
+h3{
+margin-bottom: 2rem;
+margin-top: 2rem;
+  font-size: var(--font-size-heading3);
+}
+/*heading styles*/
+nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  margin-top: 5rem;
+}
+.header{
+  height: 80px;
+  border-bottom: 1px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+
+}
+
+.nav{
+  display: block;
+  position: absolute;
+  background: #ffffff;
+  color: #000000;
+  width: 100%;
+  top:80px;
+  left: -9999px;
+}
+
+#toggle-menu:checked ~  .nav {
+  left: 0;
+
+}
+.nav li{
+  border-bottom: 1px solid #000000; 
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.hamburga 
+{
+  width: 20px;
+  display: block;
+}
+
+.hamburger-bar {
+  width: 100%;
+  display: block;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #444444;
+}
+
+.hamburger-bar + .hamburger-bar {
+  margin-top: 4px;
+}
+
+#toggle-menu{
+  opacity: 0;
+}
+
+@media (min-width:800px){
+  .nav li{
+    border: none;
+  }
+  .hamburger-bar{
+    display: none;
+  }
+  .nav{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: static;
+  width: auto;
+}
+
+}
+
+a 
+{
+display: block;
+padding: var(--button-padding);
+max-width: 60rem;
+color: var(--color-link);
+text-decoration:underline;
+text-decoration: none;
+}
+
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+
+a:hover
+{
+color: var(--color-link-hover);
+}
+
+.button
+{
+text-decoration: none;
+background-color: var(--button-backrground);
+border-radius: 30px;
+padding-left: 20px;
+padding-right: 20px;
+
+box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.1);
+
+
+}
+.button:hover
+{
+background-color: var(--button-hover);
+color: var(--color-link-hover);
+
+}
+/*connecting unfinished media/learn more*/
+
+.heading-2{
+margin: var(--heading-margin);
+padding-top:var(--heading-padding);
+padding-bottom:var(--heading-padding);
+
+}
+
+.project-container {
+background-color: var(--class-color-bg);
+width: auto;
+height: auto;
+padding: var(--project-card-padding);
+margin-left: 1rem;
+margin-right: 1rem;
+margin-bottom: 2.5rem;
+border-radius: var(--border-radius);
+box-shadow: inset 0 0 10px 2px rgba(0, 0, 0, 0.1);
+
+.button{
+  width: fit-content;
+  	max-width: 60ch;
+	  margin-inline: auto;
+}
+text-align: center;  
+}
+/*searched how to add box shadow and align content to center*/
+}
+
+.project-content
+{
+padding: 1rem;
+	max-width: 60ch;
+	margin-inline: auto;
+
+}
+/* case study set up*/
+
+.portfolio-imgs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about-photo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+
+nav a:focus-visible {
+outline: 2px solid var(--color-link);
+outline-offset: 3px;
+}
+
+.button:focus-visible{
+outline: 2px solid var(--color-link);
+outline-offset: 3px;
+}
+
+/*elements reached through tab */
+
+p{
+  padding: .5rem;
+  max-width: 60rem ;
+  width:100%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+
+}
+
+
